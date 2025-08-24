@@ -12,7 +12,7 @@ func main() {
 
 	if err := rootCmd.Execute(); err != nil {
 		errorStyle := lipgloss.NewStyle().
-			Foreground(lipgloss.Color("#FF0000")).
+			Foreground(lipgloss.Color("#c41616ff")).
 			Padding(1, 2).
 			Bold(true).
 			Render(fmt.Sprintf("Error: %s", err))
